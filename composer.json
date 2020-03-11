@@ -1,0 +1,33 @@
+{
+    "name": "xbhub/laravel-filter",
+    "description": "A simple, clean and elegant way to filter Eloquent models.",
+    "keywords": ["laravel", "eloquent", "filters", "search", "query", "filter", "filtration"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jory",
+            "email": "jorycn@163.com",
+            "homepage": "http://www.xbhub.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "illuminate/contracts": "^6.0|^7.0",
+        "illuminate/database": "^6.0|^7.0",
+        "illuminate/support": "^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xbhub\\Filter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+
+        }
+    }
+}
